@@ -13,7 +13,7 @@ def results(request,question_id):
     response="You are looking for question with id: %s"
     return HttpResponse(response % question_id)
 
-def voting(request,question_id):
+def vote(request,question_id):
     return HttpResponse("You voted question with id: %s" % question_id)
 
 
